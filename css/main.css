@@ -1,0 +1,141 @@
+body {
+  background-image: url(./../images/blue-sky-background-with-white-clouds-abstract-sky-for-natural-background-illustration-vector.jpg);
+  overflow: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+img {
+  width: 300px;
+}
+.img6{
+  width: 200px;
+}
+.box {
+  gap: 10px;
+}
+.img1 {
+  position: relative;
+  left: 100px;
+  top: 249px;
+  animation: name duration timing-function delay iteration-count direction
+    fill-mode;
+  animation-name: img1;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.img2 {
+  position: relative;
+  left: 100px;
+  top: -3px;
+  animation-name: img2;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.img3 {
+  position: relative;
+  top: 139px;
+  left: 180px;
+  animation-name: img3;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.img4 {
+  position: relative;
+  left: 340px;
+  animation-name: img4;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.img6 {
+  position: relative;
+  left: 35rem;
+  top: 350px;
+  animation-name: img6;
+  animation-duration: 10s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  transition: all linear 0.8s;
+}
+@keyframes img6 {
+  0% {
+    position: relative;
+    left: 35rem;
+    top: 350px;
+  }
+  25% {
+    position: relative;
+    left: 10rem;
+    top: 120px;
+  }
+  50% {
+    position: relative;
+    left: -20rem;
+    top: 80px;
+  }
+  75% {
+    position: relative;
+    left: -90rem;
+    top: 170px;
+  }
+  100% {
+    position: relative;
+    left: -100rem;
+    top: 300px;
+  }
+}
+@keyframes img1 {
+  0% {
+    position: relative;
+    left: 100px;
+    top: 249px;
+  }
+  100% {
+    position: relative;
+    left: -4rem;
+  }
+}
+@keyframes img4 {
+  0% {
+    position: relative;
+    right: 120px;
+  }
+  100% {
+    position: relative;
+    left: -10rem;
+  }
+}
+@keyframes img3 {
+  0% {
+    position: relative;
+  top: 40px;
+  left: 180px;
+  }
+  100% {
+    position: relative;
+    left: -10rem;
+  }
+}
+@keyframes img2 {
+  0% {
+    position: relative;
+    right: 30px;
+    top: -3px;
+  }
+  100% {
+    position: relative;
+    left: -10rem;
+  }
+}
